@@ -68,25 +68,43 @@ body {
 .nav-menu-item a:hover {
   color: rgb(255, 255, 255);
 }
-.nav-menu-item a.active {
+.nav-menu-item a.active1 {
   color: rgb(255, 255, 255);
 }
+/* .nav-menu-item a.active2 {
+  color: rgb(0, 0, 0);
+} */
 
 .apply-loan {
+  text-decoration: none;
+  color: rgb(40, 27, 54);
+  font-weight: bold;
   border-radius: 10px;
-  background-color: rgb(167, 167, 167);
-  padding: 10px 20px;
+  background-color: #ececec;
+  padding: 5px 20px;
   margin: 0 20px;
 }
 
-.apply-loan a {
-  text-decoration: none;
-  color: #ececec;
-  font-weight: bold;
+.apply-loan:hover {
+  background-color: rgb(253, 251, 255);
+  color: rgb(40, 27, 54);
 }
 
-.apply-loan:hover {
-  background-color: skyblue;
+.apply-loan2 {
+  text-decoration: none;
+  color: rgb(253, 251, 255);
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: rgb(40, 27, 54);
+  padding: 5px 20px;
+  margin: 0 20px;
+}
+
+.apply-loan2:hover {
+  background-color: #ececec;
+  color: rgb(40, 27, 54);
+  /* outline: 1px solid rgb(40, 27, 54);
+  border-radius: 10px; */
 }
 
 .main {
@@ -95,7 +113,7 @@ body {
 
 .banner {
   background-color: rgb(40, 27, 54);
-  height: 400px;
+  height: 600px;
   width: 100%;
 }
 
