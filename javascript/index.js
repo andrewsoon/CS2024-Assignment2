@@ -3,10 +3,7 @@ window.onscroll = function () {
 };
 
 function headerFunction() {
-  if (
-    document.body.scrollTop > 550 ||
-    document.documentElement.scrollTop > 550
-  ) {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("headerID").className = "header-white";
     document.getElementById("header-link").className = "header-nav-whiteBG";
     document.getElementById("header-link2").className = "header-nav-whiteBG";

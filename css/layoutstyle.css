@@ -1,13 +1,9 @@
-body {
+.main {
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(255, 255, 255);
   min-width: 1280px;
-  min-height: 1400px;
-  background-color: rgb(197, 197, 197);
-}
-
-.container {
-  width: 100%;
+  min-height: 1000px;
+  background-color: fff;
+  color: #171d24;
 }
 
 .header-transparent {
@@ -39,7 +35,7 @@ body {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
 }
 .header-white {
-  color: rgb(40, 27, 54);
+  color: #281b36;
 }
 
 .row {
@@ -64,12 +60,12 @@ body {
 }
 
 .header-nav:hover {
-  color: rgb(255, 255, 255);
+  color: #fff;
 }
 
 .header-nav-whiteBG {
   text-decoration: none;
-  color: rgb(40, 27, 54);
+  color: #281b36;
   font-weight: bold;
   margin: 0 20px;
   padding: 10px;
@@ -81,7 +77,7 @@ body {
 
 .apply-loan {
   text-decoration: none;
-  color: rgb(40, 27, 54);
+  color: #281b36;
   font-weight: bold;
   border-radius: 10px;
   background-color: #ececec;
@@ -91,7 +87,7 @@ body {
 
 .apply-loan:hover {
   background-color: rgb(253, 251, 255);
-  color: rgb(40, 27, 54);
+  color: #281b36;
 }
 
 /* White background styling for CTA */
@@ -100,32 +96,17 @@ body {
   color: rgb(253, 251, 255);
   font-weight: bold;
   border-radius: 10px;
-  background-color: rgb(40, 27, 54);
+  background-color: #281b36;
   padding: 5px 20px;
   margin: 0 20px;
 }
 
 .apply-loan-whiteBG:hover {
   background-color: #ececec;
-  color: rgb(40, 27, 54);
-  /* outline: 1px solid rgb(40, 27, 54);
-  border-radius: 10px; */
+  color: #281b36;
 }
-
-.main {
-  min-height: 1000px;
-}
-
-.banner {
-  background-color: rgb(40, 27, 54);
-  height: 600px;
-  width: 100%;
-}
-
 .footer {
-  background-color: rgb(66, 66, 66);
-  bottom: 0;
-  position: fixed;
-  left: 0;
+  background-color: #171d24;
   width: 100%;
+  height: 100px;
 }
