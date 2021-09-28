@@ -13,36 +13,40 @@
       crossorigin="anonymous"
     />
 
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/layoutstyle.css" rel="stylesheet" />
 
     <title>CS2024 Assignment 2</title>
   </head>
   <body>
     <!-- Header/Navbar? -->
-    <div class="header">
-      <div class="container">
-        <div class="row">
-          <div class="col-4">Logo/Name</div>
-          <div class="col-8">
-            <div class="nav-bar">
-              <div class="nav-menu-item">
-                <a href="index.html">Home</a>
-              </div>
-              <div class="nav-menu-item">
-                <a href="packages.html" class="active">Our Packages</a>
-              </div>
-              <div class="apply-loan">
-                <a href="applyLoan.html">Apply Loan</a>
-              </div>
-            </div>
+    <script src="javascript/index.js">
+      subpageHeader();
+    </script>
+    <div class="main">
+      <div class="header-white">
+        <div class="container">
+          <div class="nav-bar">
+            <a id="header-link" class="header-nav-whiteBG" href="index.html">
+              <div>Home</div>
+            </a>
+            <a
+              id="header-link2"
+              class="header-nav-whiteBG"
+              href="packages.html"
+            >
+              <div>Our Packages</div>
+            </a>
+            <a id="apply-cta" class="apply-loan-whiteBG" href="applyLoan.html">
+              <div>Apply Loan</div>
+            </a>
           </div>
         </div>
       </div>
-    </div>
-    Loan Packages
-    <div class="footer">
-      <div class="container">
-        <div class="row">footer</div>
+      Loan Packages
+      <div class="footer">
+        <div class="container">
+          <div class="row">footer</div>
+        </div>
       </div>
     </div>
     <!-- Option 1: Bootstrap Bundle with Popper -->

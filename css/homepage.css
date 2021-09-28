@@ -1,0 +1,136 @@
+.banner {
+  background-color: #281b36;
+  height: 650px;
+  width: 100%;
+  color: #fff;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.row {
+  height: 100%;
+}
+
+.left-banner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-header {
+  text-transform: capitalize;
+  margin-top: 20px;
+  width: 100%;
+  font-size: 2.5em;
+  font-weight: 600;
+  align-self: center;
+}
+
+.banner-CTA {
+  text-decoration: none;
+  color: #281b36;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #ececec;
+  padding: 10px 25px;
+  margin: 20px 0px;
+  width: fit-content;
+}
+
+.banner-CTA:hover {
+  background-color: #fff;
+  color: rgb(89, 61, 119);
+}
+
+.right-banner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.person-money-img {
+  width: 100%;
+}
+
+.white-row {
+  background-color: #fff;
+}
+
+.white-row-header {
+  font-size: 2em;
+  font-weight: 600;
+  margin: 80px 0px 10px 0px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.white-row-text {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.features-list {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 0;
+  justify-content: space-around;
+}
+
+.features-container {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+.feature-header {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.why-us-img {
+  padding: 30px 0px;
+  width: 80%;
+  margin: 10px 0px 60px auto;
+}
+
+.why-choose-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  height: 100%;
+}
+
+.why-us-header {
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.why-us-text {
+  font-size: 1em;
+  margin: 20px auto 20px 0;
+  width: 80%;
+}
+
+.our-services-list {
+  height: 300px;
+  margin: 60px 0px;
+}
+
+.our-services {
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.our-services-text {
+  font-size: 1.2em;
+  text-align: center;
+}

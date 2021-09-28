@@ -13,40 +13,123 @@
       crossorigin="anonymous"
     />
 
-    <link href="css/style.css" rel="stylesheet" />
-
+    <link href="css/layoutstyle.css" rel="stylesheet" />
+    <link href="css/homepage.css" rel="stylesheet" />
     <title>CS2024 Assignment 2</title>
   </head>
   <body>
     <!-- Header/Navbar? -->
-    <div class="header">
-      <div class="container">
-        <div class="row">
-          <div class="col-4">Logo/Name</div>
-          <div class="col-8">
-            <div class="nav-bar">
-              <div class="nav-menu-item" class="active">
-                <a href="index.html" class="active">Home</a>
+    <script src="javascript/index.js"></script>
+    <div class="main">
+      <div id="headerID" class="header-transparent">
+        <div class="container">
+          <div class="nav-bar">
+            <a id="header-link" class="header-nav" href="index.html">
+              <div>Home</div>
+            </a>
+            <a id="header-link2" class="header-nav" href="packages.html">
+              <div>Our Packages</div>
+            </a>
+            <a id="apply-cta" class="apply-loan" href="applyLoan.html">
+              <div>Apply Loan</div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="banner">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="left-banner">
+                <div class="banner-header">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </div>
+                <a class="banner-CTA" href="applyLoan.html">
+                  <div>Apply Now</div>
+                </a>
               </div>
-              <div class="nav-menu-item">
-                <a href="packages.html">Our Packages</a>
-              </div>
-              <div class="apply-loan">
-                <a href="applyLoan.html">Apply Loan</a>
+            </div>
+            <div class="col">
+              <div class="right-banner">
+                <img
+                  class="person-money-img"
+                  src="images/person-2.png"
+                  alt="person-money"
+                />
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="banner">
-      <div class="container">
-        <div class="row">Home</div>
+      <div class="white-row">
+        <div class="container">
+          <div class="row">
+            <div class="white-row-header">Quick easy flexible loans</div>
+            <div class="white-row-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+              rutrum justo non nunc tristique laoreet.
+            </div>
+            <div class="features-list">
+              <div class="features-container">
+                <img src="images/percent.png" alt="percent" />
+                <div class="feature-header">Low Interest Rate</div>
+              </div>
+              <div class="features-container">
+                <img src="images/percent.png" alt="percent" />
+                <div class="feature-header">Low Interest Rate</div>
+              </div>
+              <div class="features-container">
+                <img src="images/percent.png" alt="percent" />
+                <div class="feature-header">Low Interest Rate</div>
+              </div>
+              <div class="features-container">
+                <img src="images/percent.png" alt="percent" />
+                <div class="feature-header">Low Interest Rate</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="footer">
-      <div class="container">
-        <div class="row">footer</div>
+      <div class="white-row">
+        <div class="container">
+          <div class="row">
+            <div class="col" style="padding: 0">
+              <div class="why-us-img">
+                <img
+                  src="images/handshake.png"
+                  alt="handshake-image"
+                  width="100%"
+                />
+              </div>
+            </div>
+            <div class="col">
+              <div class="why-choose-us">
+                <div class="why-us-header">
+                  Why choose us?
+                </div>
+                <div class="why-us-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut dolor diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra. 
+                  <br/><br/>Vestibulum sit amet sollicitudin magna. Maecenas quis consequat leo. Mauris vel sem vitae nibh gravida facilisis. 
+                  Fusce porta sem eu suscipit sagittis. 
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="white-row">
+        <div class="container">
+          <div class="row">
+            <div class="our-services-list">
+              <div class="our-services">Our Services</div>
+              <div class="our-services-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="container">
+          <div class="row">footer</div>
+        </div>
       </div>
     </div>
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -55,5 +138,6 @@
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
       crossorigin="anonymous"
     ></script>
+    <script src="javascript/index.js"></script>
   </body>
 </html>
