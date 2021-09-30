@@ -48,31 +48,41 @@
           <form>
             <div class="mb-3">
               <label for="InputName" class="form-label">Full Name (as per your NRIC):*</label>
-              <input type="name" class="form-control" id="name">
+              <input type="text" class="form-control" id="InputName">
             </div>
             <div class="mb-3">
               <label for="InputEmail" class="form-label">Email address:*</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <input type="email" class="form-control" id="InputEmail">
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Contact No:*</label>
-              <input type="password" class="form-control" id="password">
+              <label for="InputPhone" class="form-label">Contact No:*</label>
+              <input type="tel" class="form-control" id="InputPhone" >
             </div>
             <div class="mb-3">
               <label for="LoanType" class="form-label">Type of Loan</label>
-              <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown button
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                  <li><a class="dropdown-item" href="#">Personal Loan</a></li>
-                  <li><a class="dropdown-item" href="#">Business Loan</a></li>
-                  <li><a class="dropdown-item" href="#">Debt Consolidation</a></li>
-                  <li><a class="dropdown-item" href="#">Renovation Express</a></li>
-                </ul>
-              </div>
+              <br>
+              <select id="dropdown" style="width:15em;height:3em; background-color: #0050B2; color:white;">
+                <option>Personal Loan</option>
+                <option>Business Loan</option>
+                <option>Debt Consolidation</option>
+                <option>Renovation Expenses</option>
+              </select>
+
+            </div>
+            <div class="mb-3">
+              <label for="InputIncome" class="form-label">Monthly Income:*</label>
+              <input type="number" class="form-control" id="InputIncome">
+            </div>
+            <div class="mb-3">
+              <label for="InputAmount" class="form-label">Loan Amount Required:*</label>
+              <input type="number" class="form-control" id="InputAmount">
+            </div>
+            <div class="row">
+              <label for="InputMessage" class="form-label">Additional Message:</label>
+              <input type="form-control form-control-lg" class="form-control" id="InputMessage">
             </div>
 
+            <br>
             <button type="submit" class="btn btn-primary">Submit</button>
           
           </form>
@@ -91,5 +101,6 @@
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
       crossorigin="anonymous"
     ></script>
+    
   </body>
 </html>
