@@ -1,0 +1,23 @@
+body{
+    background-color: #F4F7FC;
+}
+.mainform{
+    padding-top:150px;
+}
+.mainform.container{
+    background-color:#F4F7FC;
+    color:black;
+}
+
+#dropdown{
+    width:340px;
+    height:48px;
+    background-color: white;
+    color:black;
+    border-radius:5px;
+    padding:10px;
+}
+
+.btn{
+    background-color: #281b36;
+}
