@@ -105,6 +105,13 @@
   background-color: #ececec;
   color: #281b36;
 }
+
+#logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 5px 84.5px;
+}
 .footer {
   background-color: #171d24;
   width: 100%;
