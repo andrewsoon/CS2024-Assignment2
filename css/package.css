@@ -1,0 +1,53 @@
+#mainbody{
+    padding-top:150px;
+}
+
+.card{
+    color:black;
+}
+
+.card-header{
+    background-color: #281b36;
+    color:white;
+}
+
+.btn{
+    background-color: #281b36;
+}
+
+.faq{
+    background-color: #281b36;
+    color: white;
+    min-height: 500px;
+}
+
+.faqtitle{
+    text-align: center;
+}
+
+.innercontainer{
+    max-width: 1180px; 
+    margin-left:auto; 
+    margin-right:auto; 
+    width:100%;
+}
+
+.col-md-6{
+    padding:0px 15px;
+}
+
+.btn-lg{
+    color:white;
+}
+
+.btntitle{
+    font-size:16px;
+}
+
+hr{
+    margin:1px;
+}
+
+.clicked{
+    background-color: #2D3248;
+}

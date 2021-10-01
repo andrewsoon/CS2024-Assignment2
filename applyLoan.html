@@ -14,10 +14,11 @@
     />
 
     <link href="css/layoutstyle.css" rel="stylesheet" />
+    <link href="css/application.css" rel="stylesheet" />
 
     <title>CS2024 Assignment 2</title>
   </head>
-  <body style="background-color: #F4F7FC;">
+  <body>
     <!-- Header/Navbar? -->
     <div class="main">
       <div class="header-white">
@@ -40,56 +41,59 @@
           <img id="logo" src="images/logo.png" alt="logo" width="120" />
         </div>
       </div>
-    </div>
-    <div class="mainform">
-      <div class="container" style="background-color: #F4F6FB; color:black;">
-        <h1>Fill Up The Form Below To Start:</h1>
-        <p>We will get back to you in an hour.</p>
-        <div class="formbody">
-          <form>
-            <div class="mb-3">
-              <label for="InputName" class="form-label">Full Name (as per your NRIC):*</label>
-              <input type="text" class="form-control" id="InputName">
-            </div>
-            <div class="mb-3">
-              <label for="InputEmail" class="form-label">Email address:*</label>
-              <input type="email" class="form-control" id="InputEmail">
-            </div>
-            <div class="mb-3">
-              <label for="InputPhone" class="form-label">Contact No:*</label>
-              <input type="tel" class="form-control" id="InputPhone" >
-            </div>
-            <div class="mb-3">
-              <label for="LoanType" class="form-label">Type of Loan</label>
+      <div class="mainform">
+        <div class="container">
+          <h1>Fill Up The Form Below To Start:</h1>
+          <p>We will get back to you in an hour.</p>
+          <br>
+          <div class="formbody">
+            <form>
+              <div class="mb-3">
+                <label for="InputName" class="form-label">Full Name (as per your NRIC):*</label>
+                <input type="text" class="form-control" id="InputName">
+              </div>
+              <div class="mb-3">
+                <label for="InputEmail" class="form-label">Email address:*</label>
+                <input type="email" class="form-control" id="InputEmail">
+              </div>
+              <div class="mb-3">
+                <label for="InputPhone" class="form-label">Contact No:*</label>
+                <input type="tel" class="form-control" id="InputPhone" >
+              </div>
+              <div class="mb-3">
+                <label for="LoanType" class="form-label">Type of Loan</label>
+                <br>
+                <select id="dropdown">
+                  <option>Personal Loan</option>
+                  <option>Business Loan</option>
+                  <option>Debt Consolidation</option>
+                  <option>Renovation Expenses</option>
+                </select>
+  
+              </div>
+              <div class="mb-3">
+                <label for="InputIncome" class="form-label">Monthly Income:*</label>
+                <input type="number" class="form-control" id="InputIncome">
+              </div>
+              <div class="mb-3">
+                <label for="InputAmount" class="form-label">Loan Amount Required:*</label>
+                <input type="number" class="form-control" id="InputAmount">
+              </div>
+              <div class="row">
+                <label for="InputMessage" class="form-label">Additional Message:</label>
+                <input type="form-control form-control-lg" class="form-control" id="InputMessage">
+              </div>
+  
               <br>
-              <select id="dropdown" style="width:15em;height:3em; background-color: #0050B2; color:white;">
-                <option>Personal Loan</option>
-                <option>Business Loan</option>
-                <option>Debt Consolidation</option>
-                <option>Renovation Expenses</option>
-              </select>
-
-            </div>
-            <div class="mb-3">
-              <label for="InputIncome" class="form-label">Monthly Income:*</label>
-              <input type="number" class="form-control" id="InputIncome">
-            </div>
-            <div class="mb-3">
-              <label for="InputAmount" class="form-label">Loan Amount Required:*</label>
-              <input type="number" class="form-control" id="InputAmount">
-            </div>
-            <div class="row">
-              <label for="InputMessage" class="form-label">Additional Message:</label>
-              <input type="form-control form-control-lg" class="form-control" id="InputMessage">
-            </div>
-
-            <br>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          
-          </form>
+              <button type="submit" class="btn btn-primary">Submit Application</button>
+            
+            </form>
+          </div>
         </div>
       </div>
-      
+
+    </div>
+    
       
     <div class="footer">
       <div class="container">
