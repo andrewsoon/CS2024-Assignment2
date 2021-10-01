@@ -107,6 +107,14 @@
 }
 
 #logo {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 5px 84.5px;
+}
+#logo2 {
+  display: block;
   position: absolute;
   top: 0;
   left: 0;
