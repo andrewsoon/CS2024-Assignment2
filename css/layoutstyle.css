@@ -80,20 +80,20 @@
   color: #281b36;
   font-weight: bold;
   border-radius: 10px;
-  background-color: #ececec;
+  background-color: #fcfcfc;
   padding: 5px 20px;
   margin: 0 20px;
 }
 
 .apply-loan:hover {
-  background-color: rgb(253, 251, 255);
-  color: #281b36;
+  background-color: #fff;
+  color: rgb(89, 61, 119);
 }
 
 /* White background styling for CTA */
 .apply-loan-whiteBG {
   text-decoration: none;
-  color: rgb(253, 251, 255);
+  color: rgb(252, 252, 252);
   font-weight: bold;
   border-radius: 10px;
   background-color: #281b36;
@@ -124,4 +124,21 @@
   background-color: #171d24;
   width: 100%;
   height: 100px;
+}
+
+.footer-content {
+  color: #fcfcfc;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer-link {
+  margin: 5px;
+  color: #fcfcfc;
+}
+
+#footer-link:hover {
+  color: #ede5f7;
 }
