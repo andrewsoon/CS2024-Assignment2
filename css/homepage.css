@@ -137,9 +137,8 @@
   background-color: #281b36e1;
   color: rgb(245, 245, 245);
   min-height: 300px;
-  width: 95%;
-  margin: auto;
-  border-radius: 10px;
+  width: 100%;
+  padding: 20px;
 }
 
 .our-services-list {
