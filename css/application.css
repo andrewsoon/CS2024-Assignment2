@@ -1,18 +1,42 @@
 body{
-    background-color: #F4F7FC;
+    background: linear-gradient(90deg, rgba(40,27,54,1) 0%, #533870 100%);
+    margin:0;
+    
 }
+/*
+body::before{
+    content:"";
+    position:absolute;
+    top:100px;
+    bottom:0;
+    left:0;
+    width:5700px;
+    background:linear-gradient(to top, #281b36, #ceb9e7 200%);
+    transform: skew(-80deg);
+    z-index: -1;
+}
+*/
+.main{
+    min-height:auto;
+}
+
 .mainform{
     padding-top:150px;
+   
 }
-.mainform.container{
-    background-color:#F4F7FC;
+#container1{
+    
     color:black;
+    display:flex;
+    max-width: 1080px;
+    z-index:2;
+    
 }
 
 #dropdown{
     width:340px;
     height:48px;
-    background-color: white;
+    background-color: #F6F9FC;
     color:black;
     border-radius:5px;
     padding:10px;
@@ -20,4 +44,93 @@ body{
 
 .btn{
     background-color: #281b36;
+}
+
+.secondary-column{
+    margin-left:0px;
+    margin-right:0px;
+    max-width:none;
+    flex-grow: 4;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    color:white;
+}
+
+.form-column{
+    flex-grow: 6;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    padding-bottom:0;
+    -webkit-box-shadow: 2px 4px 10px 3px rgba(207, 207, 207, 0.56); 
+    box-shadow: 2px 4px 10px 5px rgba(0,0,0,0.56);
+    box-sizing: border-box;
+    -webkit-box-flex:6;
+    background-color:#FFFFFF;
+    border-radius:5px;
+   
+}
+
+.form-row{
+    display:flex;
+    border-bottom:none;
+    padding: 4px 0;
+    max-width: 600px;
+    transition: opacity .2s ease-in,height .2s ease-out;
+}
+
+form{
+    padding:20px 20px 20px 20px;
+}
+
+
+
+.form-label{
+    width:200px;
+}
+
+.dropdown{
+    width:100%;
+}
+
+.description{
+    padding-left:50px;
+    padding-right:0px;
+    padding-top: 150px;
+    display:flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.points li{
+    list-style:none;
+    margin-bottom:20px;
+}
+
+.intro-text{
+    font-size:24px;
+}
+
+
+.gradient-background{
+    content:"";
+    position:absolute;
+    top:0px;
+    bottom:0;
+    left:0;
+    width:5700px;
+    background:linear-gradient(to right, #281b36, #ceb9e7 300%);
+    border-left: 1900px solid #F6F9FC;   
+    border-bottom:500px solid transparent;
+    z-index: -1;
+}
+
+
+.form-control{
+    background-color: #F6F9FC;
+}
+
+.qnatext{
+    margin-top: 10px;
 }
