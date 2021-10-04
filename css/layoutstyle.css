@@ -38,8 +38,13 @@
   color: #281b36;
 }
 
+.container {
+  height: 100%;
+}
+
 .row {
   margin: 0;
+  height: 100%;
 }
 
 .nav-bar {
@@ -80,20 +85,20 @@
   color: #281b36;
   font-weight: bold;
   border-radius: 10px;
-  background-color: #ececec;
+  background-color: #fcfcfc;
   padding: 5px 20px;
   margin: 0 20px;
 }
 
 .apply-loan:hover {
-  background-color: rgb(253, 251, 255);
-  color: #281b36;
+  background-color: #fff;
+  color: rgb(89, 61, 119);
 }
 
 /* White background styling for CTA */
 .apply-loan-whiteBG {
   text-decoration: none;
-  color: rgb(253, 251, 255);
+  color: rgb(252, 252, 252);
   font-weight: bold;
   border-radius: 10px;
   background-color: #281b36;
@@ -105,8 +110,40 @@
   background-color: #ececec;
   color: #281b36;
 }
+
+#logo {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 5px 84.5px;
+}
+#logo2 {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 5px 84.5px;
+}
 .footer {
   background-color: #171d24;
   width: 100%;
   height: 100px;
+}
+
+.footer-content {
+  color: #fcfcfc;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer-link {
+  margin: 5px;
+  color: #fcfcfc;
+}
+
+#footer-link:hover {
+  color: #ede5f7;
 }
