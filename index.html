@@ -5,6 +5,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- Favicon -->
+    <link
+      href="images/favicon-16x16.png"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
@@ -12,10 +19,18 @@
       integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
       crossorigin="anonymous"
     />
+    <!-- Font Awesom Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <link href="css/layoutstyle.css" rel="stylesheet" />
     <link href="css/homepage.css" rel="stylesheet" />
-    <title>CS2024 Assignment 2</title>
+    <title>Legal Moneylending for Businesses - F Money</title>
   </head>
   <body>
     <!-- Header/Navbar? -->
@@ -34,12 +49,14 @@
               <div>Apply Loan</div>
             </a>
           </div>
+          <img id="logo" src="images/logo.png" alt="logo" width="120" />
+          <img id="logo2" src="images/logo2.png" alt="logo2" width="120" />
         </div>
       </div>
       <div class="banner">
         <div class="container">
           <div class="row">
-            <div class="col">
+            <div class="col-sm-5">
               <div class="left-banner">
                 <div class="banner-header">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -49,42 +66,39 @@
                 </a>
               </div>
             </div>
-            <div class="col">
+            <div class="col-sm-7">
               <div class="right-banner">
                 <img
                   class="person-money-img"
-                  src="images/person-2.png"
-                  alt="person-money"
+                  src="images/happy-business.png"
+                  alt="happy-business"
+                  width="100%"
                 />
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="white-row">
+      <div class="features-row">
         <div class="container">
           <div class="row">
-            <div class="white-row-header">Quick easy flexible loans</div>
-            <div class="white-row-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              rutrum justo non nunc tristique laoreet.
-            </div>
             <div class="features-list">
               <div class="features-container">
-                <img src="images/percent.png" alt="percent" />
+                <i class="fas fa-percentage fa-3x"></i>
                 <div class="feature-header">Low Interest Rate</div>
               </div>
               <div class="features-container">
-                <img src="images/percent.png" alt="percent" />
-                <div class="feature-header">Low Interest Rate</div>
+                <i class="fas fa-dollar-sign fa-3x"></i>
+                <div class="feature-header">No Prepayment or Hidden Fees</div>
               </div>
               <div class="features-container">
-                <img src="images/percent.png" alt="percent" />
-                <div class="feature-header">Low Interest Rate</div>
+                <i class="far fa-check-square fa-3x"></i>
+                <div class="feature-header">Easy Eligibility</div>
               </div>
+
               <div class="features-container">
-                <img src="images/percent.png" alt="percent" />
-                <div class="feature-header">Low Interest Rate</div>
+                <i class="fas fa-users fa-3x"></i>
+                <div class="feature-header">5,000K Customers Satisfied</div>
               </div>
             </div>
           </div>
@@ -98,37 +112,159 @@
                 <img
                   src="images/handshake.png"
                   alt="handshake-image"
-                  width="100%"
+                  width="400px"
+                  height="auto"
+                  style="border-radius: 10px"
                 />
               </div>
             </div>
             <div class="col">
               <div class="why-choose-us">
-                <div class="why-us-header">
-                  Why choose us?
-                </div>
+                <div class="why-us-header">#1 Legal Moneylender</div>
                 <div class="why-us-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut dolor diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra. 
-                  <br/><br/>Vestibulum sit amet sollicitudin magna. Maecenas quis consequat leo. Mauris vel sem vitae nibh gravida facilisis. 
-                  Fusce porta sem eu suscipit sagittis. 
+                  Credit 21 Licensed Money Lender is a legal and reputable money
+                  lending company in Singapore. We provide a variety of tailored
+                  financing solutions to those in need of quick and convenient
+                  cash. Many people often encounter financial difficulties and
+                  are unable to access quick funds due to issues such as
+                  borrowing rules, bad credit history and long approval times.
+                  Here we are sensitive to the needs of our clients in getting
+                  fast access to emergency cash. Our operations are regulated by
+                  the Registry of Moneylenders in Singapore. Our repayment plans
+                  and interest rates adhere to the standards set by Moneylenders
+                  Act and Rules. Therefore all our clients enjoy one of the best
+                  financial services provided in the city. You can rely on us
+                  for transparency, fairness and convenience when it comes to
+                  quick financing. Our customer service team is ready to respond
+                  to all of your questions, and our online application can get
+                  you one-step closer to getting the financial assistance you
+                  need.
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="dark-row">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="our-services">
+                <div class="our-services-header">Our Services</div>
+                <div class="our-services-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                  a libero nulla. Donec at iaculis enim. Sed rhoncus rhoncus mi.
+                  Duis sagittis vestibulum turpis, sed blandit sapien porttitor
+                  sit amet.
+                </div>
+                <a class="packages-button" href="packages.html">
+                  <div>Learn More</div>
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="services-list">
+                <div class="service-container">
+                  <div class="icon-container">
+                    <i class="fas fa-user fa-2x"></i>
+                  </div>
+                  <div class="service-header">Personal Loan</div>
+                </div>
+                <div class="service-container">
+                  <div class="icon-container">
+                    <i class="fas fa-briefcase fa-2x"></i>
+                  </div>
+                  <div class="service-header">Business Loan</div>
+                </div>
+                <div class="service-container">
+                  <div class="icon-container">
+                    <i class="fas fa-file-invoice-dollar fa-2x"></i>
+                  </div>
+                  <div class="service-header">Debt Consolidation</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="services-list">
+                <div class="service-container">
+                  <div class="icon-container">
+                    <i class="fas fa-tools fa-2x"></i>
+                  </div>
+                  <div class="service-header">Renovation Expenses</div>
+                </div>
+                <div class="service-container">
+                  <div class="icon-container">
+                    <i class="fas fa-tools fa-2x"></i>
+                  </div>
+                  <div class="service-header">Renovation Expenses</div>
+                </div>
+                <div class="service-container">
+                  <div class="icon-container">
+                    <i class="fas fa-tools fa-2x"></i>
+                  </div>
+                  <div class="service-header">Renovation Expenses</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div class="white-row">
         <div class="container">
           <div class="row">
-            <div class="our-services-list">
-              <div class="our-services">Our Services</div>
-              <div class="our-services-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+            <div class="col-sm-3" style="padding: 0">
+              <div class="why-choose-us">
+                <div class="why-us-header">
+                  High Level of integrity makes us different
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-9">
+              <div class="why-choose-us">
+                <div class="why-us-text">
+                  We are here to stay. Therefore we adhere to the strict code of
+                  ethics when it comes to our dealings with our customers. We do
+                  not have any hidden costs and charges, which is what has
+                  elevated us to one of the TOP in our business. In other words,
+                  if it’s there on the contract, we’re going to tell you all
+                  about it and explain before you sign it. You won’t find any
+                  surprises in the fine-print.
+                  <br /><br />Our application forms are simple and to-the-point,
+                  unlike banks where you fill in countless forms at every stage
+                  and have to wait for weeks before you know whether or not your
+                  loan has been approved. We also pride ourselves as a true
+                  genuine money lender that only offer you sound financial
+                  advice that you can walk away with. We need you to be sure of
+                  the terms and conditions, and you will be professionally
+                  advised on how much you are borrowing is something you can
+                  afford. We do not want to lend you money without a care of how
+                  you will pay it back, as that is against our principles.
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <div class="convinced-row">
+        <div class="convinced-container">
+          <div class="convinced-header">
+            Convinced? Do a quick application now!
+          </div>
+          <a class="convinced-CTA" href="applyLoan.html">
+            <div>Apply Loan</div>
+          </a>
+        </div>
+        <div class="overlay"></div>
+      </div>
       <div class="footer">
         <div class="container">
-          <div class="row">footer</div>
+          <div class="row">
+            <div class="footer-content">
+              Copyright © F Money 2021.
+              <span><a id="footer-link" href="#">Privacy</a></span> |
+              <span><a id="footer-link" href="#">Term of Use</a></span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
