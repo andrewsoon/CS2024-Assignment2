@@ -1,16 +1,15 @@
-#mainbody{
-    padding-top:150px;
+#mainbody {
+  padding-top: 150px;
 }
 
-.card{
-    color:black;
-    box-shadow: grey 2px 2px 15px;
-    border: 1px transparent;
+.card {
+  color: black;
+  box-shadow: 2px 4px 3px 2px rgb(0 0 0 / 27%);
 }
 
-.card-header{
-    background-color: #281b36;
-    color:white;
+.card-header {
+  background-color: #281b36;
+  color: white;
 }
 .card-img{
     height:200px;
@@ -25,39 +24,39 @@
     border: 1px transparent;
 }
 
-.faq{
-    background-color: #281b36;
-    color: white;
-    min-height: 500px;
+.faq {
+  background-color: #281b36;
+  color: white;
+  min-height: 500px;
 }
 
-.faqtitle{
-    text-align: center;
+.faqtitle {
+  text-align: center;
 }
 
-.innercontainer{
-    max-width: 1180px; 
-    margin-left:auto; 
-    margin-right:auto; 
-    width:100%;
+.innercontainer {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
-.col-md-6{
-    padding:0px 15px;
+.col-md-6 {
+  padding: 0px 15px;
 }
 
-.btn-lg{
-    color:white;
+.btn-lg {
+  color: white;
 }
 
-.btntitle{
-    font-size:16px;
-    margin-top: 4px;
-    margin-bottom: 4px;
+.btntitle {
+  font-size: 16px;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
-hr{
-    margin:1px;
+hr {
+  margin: 1px;
 }
 
 .clicked{
