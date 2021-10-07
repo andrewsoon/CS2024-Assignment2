@@ -1,7 +1,7 @@
-body {
-  background: linear-gradient(90deg, rgba(40, 27, 54, 1) 0%, #533870 100%);
-  margin: 0;
-  overflow-x: hidden;
+body{
+    background: linear-gradient(90deg, rgba(40,27,54,1) 0%, #533870 100%);
+    margin:0;
+    overflow-x: hidden;
 }
 /*
 body::before{
@@ -102,8 +102,19 @@ form {
   margin-bottom: 20px;
 }
 
-.intro-text {
-  font-size: 24px;
+
+.gradient-background{
+    content:"";
+    position:absolute;
+    top:0px;
+    bottom:0;
+    left:0;
+    width:5700px;
+    background:linear-gradient(to right, #281b36, #ceb9e7 300%);
+    border-left: 1900px solid #fff;   
+    border-bottom:500px solid transparent;
+    z-index: -1;
+    overflow: hidden;
 }
 
 .gradient-background {

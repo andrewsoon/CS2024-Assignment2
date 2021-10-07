@@ -11,9 +11,17 @@
   background-color: #281b36;
   color: white;
 }
+.card-img{
+    height:200px;
+}
+.btn{
+    background-color: #281b36;
+    border:1px transparent;
+}
 
-.btn {
-  background-color: #281b36;
+.btn:hover{
+    background-color: #4f87e0;
+    border: 1px transparent;
 }
 
 .faq {
@@ -51,10 +59,11 @@ hr {
   margin: 1px;
 }
 
-.clicked {
-  background-color: #2d3248;
+.clicked{
+    background-color: #4f87e0;
 }
 
-.card-img {
-  border-radius: 0;
+.card-img{
+    border-radius: 0;
 }
+
