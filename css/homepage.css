@@ -52,7 +52,7 @@
 
 .banner-CTA:hover {
   background-color: #fff;
-  color: rgb(89, 61, 119);
+  color: #593dc7;
 }
 
 .right-banner {
@@ -109,12 +109,14 @@
 }
 
 .why-us-img {
-  padding: 30px 0px;
+  padding: 30px;
   width: 100%;
   margin: 10px auto;
   height: 100%;
   display: flex;
   align-items: center;
+  border-radius: 10px;
+  box-shadow: 2px 4px 13px 2px rgb(0 0 0 / 56%);
 }
 
 .why-choose-us {
@@ -137,8 +139,52 @@
   width: 90%;
 }
 
+.why-loan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  height: 100%;
+}
+
+.why-loan-header {
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.why-loan-text {
+  font-size: 1.2em;
+  margin: 20px auto 20px 0;
+  width: 90%;
+}
+
+.learn-more {
+  text-underline-offset: 0.2em;
+  color: #281b36;
+  font-weight: bold;
+  font-size: 1.2em;
+  width: fit-content;
+}
+
+.learn-more:hover {
+  color: #593dc7;
+}
+
+.why-loan-img {
+  padding: 30px;
+  width: 100%;
+  margin: 10px auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 10px;
+  box-shadow: 2px 4px 13px 2px rgb(0 0 0 / 56%); */
+}
+
 .dark-row {
-  background-color: #281b36e1;
+  background-color: #281b36;
   color: rgb(245, 245, 245);
   min-height: 300px;
   width: 100%;
@@ -185,7 +231,7 @@
 
 .service-header {
   margin: 10px;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: bold;
 }
 
@@ -260,5 +306,5 @@
 }
 
 .convinced-CTA:hover {
-  color: rgb(89, 61, 119);
+  color: #593dc7;
 }
