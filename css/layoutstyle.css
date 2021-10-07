@@ -56,6 +56,36 @@
   font-size: 1rem;
 }
 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  text-align: left;
+}
+
+.dropdown-content a {
+  color: #171d24;
+  background-color: #fcfcfc;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+  /* border-bottom: 1px solid #281b365d; */
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #523b6b;
+  color: #fcfcfc;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
+
 .header-nav {
   text-decoration: none;
   color: #e0e0e0;
@@ -77,7 +107,7 @@
 }
 
 .header-nav-whiteBG:hover {
-  color: rgb(89, 61, 119);
+  color: #593dc7;
 }
 
 .apply-loan {
@@ -92,7 +122,7 @@
 
 .apply-loan:hover {
   background-color: #fff;
-  color: rgb(89, 61, 119);
+  color: #593dc7;
 }
 
 /* White background styling for CTA */
