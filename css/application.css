@@ -62,7 +62,7 @@ body::before{
   box-shadow: 2px 4px 10px 5px rgba(0, 0, 0, 0.56);
   box-sizing: border-box;
   -webkit-box-flex: 6;
-  background-color: #ffffff;
+  background-color: #fcfcfc;
   border-radius: 5px;
 }
 
@@ -111,23 +111,10 @@ form {
     left:0;
     width:5700px;
     background:linear-gradient(to right, #281b36, #ceb9e7 300%);
-    border-left: 1900px solid #fff;   
+    border-left: 1900px solid #fcfcfc;   
     border-bottom:500px solid transparent;
     z-index: -1;
     overflow: hidden;
-}
-
-.gradient-background {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: -webkit-max-content;
-  background: linear-gradient(to right, #281b36, #ceb9e7 300%);
-  border-left: 1900px solid #f6f9fc;
-  border-bottom: 500px solid transparent;
-  z-index: -1;
 }
 
 .form-control {
