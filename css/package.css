@@ -4,15 +4,25 @@
 
 .card{
     color:black;
+    box-shadow: grey 2px 2px 15px;
+    border: 1px transparent;
 }
 
 .card-header{
     background-color: #281b36;
     color:white;
 }
-
+.card-img{
+    height:200px;
+}
 .btn{
     background-color: #281b36;
+    border:1px transparent;
+}
+
+.btn:hover{
+    background-color: #4f87e0;
+    border: 1px transparent;
 }
 
 .faq{
@@ -51,9 +61,10 @@ hr{
 }
 
 .clicked{
-    background-color: #2D3248;
+    background-color: #4f87e0;
 }
 
 .card-img{
     border-radius: 0;
 }
+
