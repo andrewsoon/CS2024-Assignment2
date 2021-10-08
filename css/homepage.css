@@ -53,6 +53,7 @@
 .banner-CTA:hover {
   background-color: #fff;
   color: #593dc7;
+  text-decoration: none;
 }
 
 .right-banner {
@@ -116,7 +117,7 @@
   display: flex;
   align-items: center;
   border-radius: 10px;
-  box-shadow: 2px 4px 13px 2px rgb(0 0 0 / 56%);
+  box-shadow: 2px 4px 13px 2px rgb(0 0 0 / 15%);
 }
 
 .why-choose-us {
@@ -160,6 +161,7 @@
 }
 
 .learn-more {
+  text-decoration: underline;
   text-underline-offset: 0.2em;
   color: #281b36;
   font-weight: bold;
@@ -242,7 +244,7 @@
 }
 
 .packages-button {
-  /* text-decoration: none; */
+  text-decoration: underline;
   text-underline-offset: 0.2em;
   color: rgb(250, 250, 250);
   font-weight: bold;
@@ -253,6 +255,35 @@
 
 .packages-button:hover {
   color: #dfccf3;
+}
+
+.testimonials-container {
+  min-height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 30px auto;
+}
+
+.testimonial-group {
+  width: 350px;
+  height: 500px;
+  box-shadow: 2px 4px 13px 2px rgb(0 0 0 / 16%);
+}
+
+.testimonial-person {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.testimonial {
+  padding: 20px 20px 40px 20px;
+}
+
+.testimonial-text {
+  font-size: 1.2em;
 }
 
 .convinced-row {
@@ -288,9 +319,15 @@
 .convinced-header {
   font-weight: bold;
   color: #fcfcfc;
-  font-size: 2em;
+  font-size: 3em;
   z-index: 999;
   text-transform: capitalize;
+}
+
+.convinced-subheader {
+  color: #fcfcfc;
+  font-size: 1.3em;
+  z-index: 999;
 }
 
 .convinced-CTA {
@@ -300,11 +337,12 @@
   border-radius: 10px;
   background-color: #fcfcfc;
   padding: 10px 25px;
-  margin-top: 30px;
+  margin-top: 24px;
   width: fit-content;
   z-index: 999;
 }
 
 .convinced-CTA:hover {
   color: #593dc7;
+  text-decoration: none;
 }
