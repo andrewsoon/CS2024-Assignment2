@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Favicon -->
+    <link
+      href="images/favicon-16x16.png"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesom Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link href="css/layoutstyle.css" rel="stylesheet" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/package.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <title>Legal Moneylending for Businesses - SG Money Lender</title>
+  </head>
+  <body>
+    <!-- Header/Navbar? -->
+    <script src="javascript/index.js">
+      subpageHeader();
+    </script>
+    <div class="main">
+      <div class="header-white">
+        <div class="container">
+          <div class="nav-bar">
+            <a id="header-link" class="header-nav-whiteBG" href="index.html">
+              <div>Home</div>
+            </a>
+            <div>
+              <button
+                id="header-link2"
+                onclick="myFunction()"
+                class="header-nav-whiteBG"
+                style="border: none; background-color: transparent"
+              >
+                Our Packages
+              </button>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="#">Personal Loan</a>
+                <a href="business-loans.html">Business Loan</a>
+                <a href="#">Foreigner Loan</a>
+                <a href="#">Education Loan</a>
+                <a href="#">Medical Loan</a>
+                <a href="#">Wedding Loan</a>
+                <a href="#">Vacation Loan</a>
+                <a href="#">Renovation Loan</a>
+              </div>
+            </div>
+            <a id="header-link2" class="header-nav-whiteBG" href="#">
+              <div>About Us</div>
+            </a>
+            <a id="header-link2" class="header-nav-whiteBG" href="#">
+              <div>Contact Us</div>
+            </a>
+            <a id="apply-cta" class="apply-loan-whiteBG" href="applyLoan.html">
+              <div>Apply Loan</div>
+            </a>
+          </div>
+          <img id="logo2" src="images/logo2.png" alt="logo" height="70" />
+        </div>
+      </div>
+      <div class="banner-container">
+        <h2 class="banner-header">Bring Your Business To Greater Heights</h2>
+        <p class="banner-subheader">
+          Never miss out on business opportunities. Get the cash flow your
+          business need now!
+        </p>
+        <a class="banner-CTA" href="applyLoan.html">
+          <div>Apply Now!</div>
+        </a>
+        
+      </div>
+
+      <!-- Bootstrap Scripts -->
+      <script
+        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"
+      ></script>
+
+      <div class="business-loan-container">
+        <h2 class="business-loan-header">
+          Here Are 5 Different Types Of Singapore Business Loans We Offer
+        </h2>
+        <div class="row">
+          <div class="col-sm-6">
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link"
+                      data-toggle="collapse"
+                      data-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      1. Business Term Loans
+                    </button>
+                  </h5>
+                </div>
+
+                <div
+                  id="collapseOne"
+                  class="collapse show"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    The amount issued for business term loans usually ranges
+                    between $1,000 and $100,000. This type of loan often is
+                    unsecured and can be utilised for various purposes within
+                    the business. Business term loans usually have a loan term
+                    of 5 years, and lending institutions which issue this type
+                    of business loan in Singapore require the borrower to have a
+                    good credit rating. If you choose to take out this type of
+                    loan, you will need to make sure that the returns that you
+                    get from investing this money are higher than the cost of
+                    the loan.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      2. Trade Financing Loans
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="collapseTwo"
+                  class="collapse"
+                  aria-labelledby="headingTwo"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    Trade financing loans are another type of business loan that
+                    is available in Singapore. A trade financing loan will come
+                    in handy when your business needs funds to purchase
+                    materials and inventories for production. Many suppliers
+                    will require some assurance of payment before they supply
+                    the materials.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      3. Property Loans For Organisations
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="collapseThree"
+                  class="collapse"
+                  aria-labelledby="headingThree"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    If you need to acquire some premises for commercial use,
+                    then a property business loan will be ideal for you. This
+                    type of business loan is a mortgage that you can use to
+                    finance the purchase of the property that you plan to use
+                    for your business operations.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFour">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#collapseFour"
+                      aria-expanded="false"
+                      aria-controls="collapseFour"
+                    >
+                      4. Equipment Loans
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="collapseFour"
+                  class="collapse"
+                  aria-labelledby="headingFour"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    An equipment loan will be useful to your business if you
+                    need to purchase some equipment for your operations or
+                    upgrade your existing machines to improve the production
+                    levels. If you choose to take out an equipment loan, you’ll
+                    need to ensure that the new equipment will generate enough
+                    income to justify the cost of paying off the credit.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFive">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#collapseFive"
+                      aria-expanded="false"
+                      aria-controls="collapseFive"
+                    >
+                      5. Invoice Financing
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="collapseFive"
+                  class="collapse"
+                  aria-labelledby="headingFive"
+                  data-parent="#accordion"
+                >
+                  <div class="card-body">
+                    There are many instances where your business could have a
+                    cash crunch directly because your debtors are not paying you
+                    on time. The invoice financing loan will be beneficial to
+                    you if you have a substantial amount of cash held by current
+                    debtors. The lender will issue a loan amount which is a
+                    significant percentage of the total amount owed by your
+                    debtors. In some cases, the lender may also choose to
+                    collect the cash owed on the outstanding invoices. An
+                    invoice financing business loan will enable you to continue
+                    with the operations of your business even when your debtors
+                    have delayed in making payments.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="img-container">
+              <img class="img-fit" src="images/business-table.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dark-row">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="application-steps">
+                <div class="application-steps-header">
+                  <span style="font-weight: bold; font-size: 1.6em;">3 Simple Steps</span></span><br/>to receive your instant cash loan
+                </div>
+                <a class="apply-button" href="applyLoan.html">
+                  <div>Apply Now</div>
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="step-container">
+                <div class="step-header-container">
+                  <div class="step-header"><span class="number-style">1</span><br/>Fill up an application form</div>
+                </div>
+                <div class="step-text">It takes an estimated 5 minutes to complete.</div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="step-container">
+                <div class="step-header-container">
+                  <div class="step-header"><span class="number-style">2</span><br/>Receive application result and make appointment</div>
+                </div>
+                <div class="step-text">Our loan officer will contact you within 24 hour upon form submission.</div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="step-container">
+                <div class="step-header-container">
+                  <div class="step-header"><span class="number-style">3</span><br/>Sign agreement and get your cash</div>
+                </div>
+                <div class="step-text">Confirm your loan contract and get your money without delay.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="why-container">
+        <h2 class="why-header">Why is getting a business loan good for you?</h2>
+        <div class="why-reasons">
+          <div class="reason">
+            <h2 class="reason-header">Accelerate Business Growth</h2>
+            <p class="reason-text">
+              You will be able to boost your revenues and grow your business to
+              new levels. Your increase in income will also enable you to make
+              your loan repayments punctually.
+            </p>
+          </div>
+          <div class="reason">
+            <h2 class="reason-header">
+              Take Advantage Of Business Opportunities
+            </h2>
+            <p class="reason-text">
+              Opportunities come and go. There is no telling when a good
+              business opportunity will present itself. By taking business
+              loans, SMEs can seize the right opportunities at the right time.
+              Instead of letting these windows of opportunity fly by, SMEs can
+              make full use of funds and grow at the right moment.
+            </p>
+          </div>
+          <div class="reason">
+            <h2 class="reason-header">Maintain Inventory And Equipment</h2>
+            <p class="reason-text">
+              Daily operational costs for businesses are costly and having
+              enough cash to keep the lights on is the first of many challenges.
+              With access to capital and funds on their hands, they can
+              reprioritise their business goals and strategies.
+            </p>
+          </div>
+          <div class="reason">
+            <h2 class="reason-header">Iron Out Cash Flow Issues</h2>
+            <p class="reason-text">
+              A working capital loan will help to ease this cash crunch during
+              the seasons when your sales levels are meagre. You will be able to
+              continue normal operations as a business as you wait for your
+              income levels to improve.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!--FAQ-->
+      <div class="faq">
+        <h1 class="faqtitle">FAQs About Business Loans</h1>
+        <div class="innercontainer">
+          <div class="row">
+            <div class="col-md-6">
+              <div style="padding: 10px">
+                <div
+                  class="btn-lg"
+                  id="btn-1"
+                  style="background-color: #523b6b"
+                >
+                  <h3 class="btntitle">Can I afford the monthly payments?</h3>
+                </div>
+                <hr />
+                <div class="btn-lg" id="btn-2">
+                  <h3 class="btntitle">
+                    Is it a good idea to get a personal loan?
+                  </h3>
+                </div>
+                <hr />
+                <div class="btn-lg" id="btn-3">
+                  <h3 class="btntitle">How does the loan repayment work?</h3>
+                </div>
+                <hr />
+                <div class="btn-lg" id="btn-4">
+                  <h3 class="btntitle">
+                    What are the eligibility criteria for personal loan in
+                    Singapore?
+                  </h3>
+                </div>
+                <hr />
+                <div class="btn-lg" id="btn-5">
+                  <h3 class="btntitle">
+                    How can I get a personal loan with no credit?
+                  </h3>
+                </div>
+                <hr />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <p class="text" id="text-1">
+                If you would like to make your payments as low as possible, you
+                can choose to pay it back over few months or years.
+                <br /><br />For those who prefer to pay their loans off as
+                quickly as possible, you can choose the highest monthly payment.
+              </p>
+              <p class="text" id="text-2" style="display: none">
+                Getting a loan is a good way to pay off any troubling expenses,
+                such as large purchases or emergency expeneses. When the
+                interest rates and fees and properly understood, it becomes a
+                tool that can help borrowers tremendously.
+              </p>
+              <p class="text" id="text-3" style="display: none">
+                Loan repayment usually occurs through monthly payments, also
+                known as <br />EMI - Equated Monthly Installments. The principal
+                amount and the interest is added up and divided equally across
+                the months, where you choose the number of months to repay the
+                loan over.
+              </p>
+              <p class="text" id="text-4" style="display: none">
+                Age between 21 and 60
+                <br />Earning a minimum salary of
+                <strong style="text-decoration: underline">$1200</strong>
+                <br />Singapore Citizen or Singapore Permanent Resident.
+              </p>
+              <p class="text" id="text-5" style="display: none">
+                SG Money Lender will consider the employment status and annual
+                income for people without credit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-content">
+              Copyright © SG Money Lender 2021.
+              <span><a id="footer-link" href="#">Privacy</a></span> |
+              <span><a id="footer-link" href="#">Term of Use</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(".btn-lg").click(function () {
+        $(".btn-lg").removeClass("clicked");
+      });
+
+      $("#btn-1").click(function () {
+        $(".text").hide();
+        $("#text-1").show();
+        $("#btn-1").attr("style", "background-color:#523b6b;");
+        $("#btn-1").toggleClass("clicked"); //<== toggleClass
+      });
+
+      $("#btn-2").click(function () {
+        $(".text").hide();
+        $("#text-2").show();
+        $("#btn-1").attr("style", "background-color:transparent;");
+        $("#btn-2").toggleClass("clicked");
+      });
+
+      $("#btn-3").click(function () {
+        $(".text").hide();
+        $("#text-3").show();
+        $("#btn-1").attr("style", "background-color:transparent;");
+        $("#btn-3").toggleClass("clicked");
+      });
+
+      $("#btn-4").click(function () {
+        $(".text").hide();
+        $("#text-4").show();
+        $("#btn-1").attr("style", "background-color:transparent;");
+        $("#btn-4").toggleClass("clicked");
+      });
+
+      $("#btn-5").click(function () {
+        $(".text").hide();
+        $("#text-5").show();
+        $("#btn-1").attr("style", "background-color:transparent;");
+        $("#btn-5").toggleClass("clicked");
+      });
+    </script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

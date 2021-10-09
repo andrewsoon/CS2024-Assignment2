@@ -1,8 +1,8 @@
 .main {
   font-family: Arial, Helvetica, sans-serif;
-  min-width: 1280px;
+  min-width: 1200px;
   min-height: 1000px;
-  background-color: fff;
+  /* background-color: #fcfcfc; */
   color: #171d24;
 }
 
@@ -69,7 +69,7 @@
 .dropdown-content a {
   color: #171d24;
   background-color: #fcfcfc;
-  padding: 8px 16px;
+  padding: 4px 16px;
   text-decoration: none;
   display: block;
   /* border-bottom: 1px solid #281b365d; */
@@ -90,24 +90,26 @@
   text-decoration: none;
   color: #e0e0e0;
   font-weight: bold;
-  margin: 0 20px;
+  margin: 0 10px;
   padding: 10px;
 }
 
 .header-nav:hover {
   color: #fff;
+  text-decoration: none;
 }
 
 .header-nav-whiteBG {
   text-decoration: none;
   color: #281b36;
   font-weight: bold;
-  margin: 0 20px;
+  margin: 0 10px;
   padding: 10px;
 }
 
 .header-nav-whiteBG:hover {
   color: #593dc7;
+  text-decoration: none;
 }
 
 .apply-loan {
@@ -123,6 +125,7 @@
 .apply-loan:hover {
   background-color: #fff;
   color: #593dc7;
+  text-decoration: none;
 }
 
 /* White background styling for CTA */
@@ -139,6 +142,7 @@
 .apply-loan-whiteBG:hover {
   background-color: #ececec;
   color: #281b36;
+  text-decoration: none;
 }
 
 #logo {
