@@ -28,9 +28,16 @@
       referrerpolicy="no-referrer"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
     <link href="css/layoutstyle.css" rel="stylesheet" />
     <link href="css/homepage.css" rel="stylesheet" />
-    <title>Legal Moneylending for Businesses - F Money</title>
+    <title>Legal Moneylending for Businesses - SG Money Lender</title>
   </head>
   <body>
     <!-- Header/Navbar? -->
@@ -42,24 +49,47 @@
             <a id="header-link" class="header-nav" href="index.html">
               <div>Home</div>
             </a>
-            <a id="header-link2" class="header-nav" href="packages.html">
-              <div>Our Packages</div>
+            <div>
+              <button
+                id="header-link2"
+                onclick="myFunction()"
+                class="header-nav"
+                style="border: none; background-color: transparent"
+              >
+                Our Packages
+              </button>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="#">Personal Loan</a>
+                <a href="business-loans.html">Business Loan</a>
+                <a href="#">Foreigner Loan</a>
+                <a href="#">Education Loan</a>
+                <a href="#">Medical Loan</a>
+                <a href="#">Wedding Loan</a>
+                <a href="#">Vacation Loan</a>
+                <a href="#">Renovation Loan</a>
+              </div>
+            </div>
+            <a id="header-link3" class="header-nav" href="#">
+              <div>About Us</div>
+            </a>
+            <a id="header-link4" class="header-nav" href="#">
+              <div>Contact Us</div>
             </a>
             <a id="apply-cta" class="apply-loan" href="applyLoan.html">
               <div>Apply Loan</div>
             </a>
           </div>
-          <img id="logo" src="images/logo2.png" alt="logo2" width="120" />
-          <img id="logo2" src="images/logo1.png" alt="logo1" width="120" />
+          <img id="logo" src="images/logo2.png" alt="logo2" height="70" />
+          <img id="logo2" src="images/logo1.png" alt="logo1" height="70" />
         </div>
       </div>
       <div class="banner">
         <div class="container">
           <div class="row">
-            <div class="col-sm-5">
+            <div class="col-sm-5" style="padding: 0px">
               <div class="left-banner">
                 <div class="banner-header">
-                  We'll solve your problems for you
+                  We'll help you with your problems
                 </div>
                 <div class="banner-sub-header">You can repay us later</div>
                 <a class="banner-CTA" href="applyLoan.html">
@@ -67,7 +97,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-sm-7">
+            <div class="col-sm-7" style="padding: 0px">
               <div class="right-banner">
                 <img
                   class="person-money-img"
@@ -96,7 +126,6 @@
                 <i class="far fa-check-square fa-3x"></i>
                 <div class="feature-header">Easy Eligibility</div>
               </div>
-
               <div class="features-container">
                 <i class="fas fa-users fa-3x"></i>
                 <div class="feature-header">5,000K Customers Satisfied</div>
@@ -108,39 +137,61 @@
       <div class="white-row">
         <div class="container">
           <div class="row">
-            <div class="col-sm-7">
-              <div class="why-choose-us">
-                <div class="why-us-header">Singapore's #1 Moneylender</div>
-                <div class="why-us-text">
-                  F Money is a
-                  <span style="font-weight: bold">legal and trustworthy</span>
-                  money lending company in Singapore. We provide tailored
-                  financial solutions to those in need of quick and convenient
-                  cash. <br /><br />Our operations are regulated by the Registry
-                  of Moneylenders in Singapore and we adhere to standards set by
-                  the Moneylenders Act and Rules. <br /><br />When it comes to
-                  quick financing, issues arise such as borrowing rules, bad
-                  credit history, and long approval times - worsening your
-                  financial difficulties. <br /><br />Here we are sensitive to
-                  your needs in getting
-                  <span style="font-weight: bold">immediate access</span> to
-                  emergency cash. Enjoy the best financial service provided that
-                  is transparent, fair, and convenient.
+            <div class="col-sm-5">
+              <div class="why-loan">
+                <div class="why-loan-header">
+                  Take a loan to pay off multiple debts!
                 </div>
+                <div class="why-loan-text">
+                  Instead of having 5 outstanding balance, why not
+                  <span style="font-weight: bold">combine them into one</span>
+                  monthly payment?
+                </div>
+                <a class="learn-more" href="#">
+                  <div>Learn More</div>
+                </a>
               </div>
             </div>
-            <div class="col-sm-5" style="padding: 0">
-              <div class="why-us-img">
+            <div class="col-sm-7" style="padding: 0">
+              <div class="why-loan-img">
                 <img
-                  src="images/handshake.png"
-                  alt="handshake-image"
+                  src="images/relaxed-woman.png"
+                  alt="relaxed-woman"
                   width="100%"
                   height="auto"
                   style="
                     border-radius: 10px;
-                    box-shadow: 2px 4px 13px 2px rgb(0 0 0 / 56%);
+                    box-shadow: 2px 1px 10px 1px rgb(44 44 44 / 49%);
                   "
                 />
+              </div>
+            </div>
+            <div class="col-sm-7" style="padding: 0">
+              <div class="why-loan-img">
+                <img
+                  src="images/business-meeting.png"
+                  alt="business-planning"
+                  width="100%"
+                  height="auto"
+                  style="
+                    border-radius: 10px;
+                    box-shadow: 2px 1px 10px 1px rgb(44 44 44 / 49%);
+                  "
+                />
+              </div>
+            </div>
+            <div class="col-sm-5">
+              <div class="why-loan">
+                <div class="why-loan-header">
+                  Grow and diversify to stand out in a competitive market!
+                </div>
+                <div class="why-loan-text">
+                  Cover the cost of expansion without eating into your
+                  operational funds.
+                </div>
+                <a class="learn-more" href="business-loans.html">
+                  <div>Learn More</div>
+                </a>
               </div>
             </div>
           </div>
@@ -153,11 +204,11 @@
               <div class="our-services">
                 <div class="our-services-header">Our Services</div>
                 <div class="our-services-text">
-                  We offer a variety of customised packages and
+                  We offer
                   <span style="font-weight: bold">flexible</span> monthly
                   repayment installments that will work within your budget.
                 </div>
-                <a class="packages-button" href="packages.html">
+                <a class="packages-button" href="#">
                   <div>Learn More</div>
                 </a>
               </div>
@@ -172,15 +223,21 @@
                 </div>
                 <div class="service-container">
                   <div class="icon-container">
-                    <i class="fas fa-plane-departure fa-2x"></i>
+                    <i class="fas fa-file-invoice-dollar fa-2x"></i>
                   </div>
-                  <div class="service-header">Vacation Loan</div>
+                  <div class="service-header">Foreigner Loan</div>
                 </div>
                 <div class="service-container">
                   <div class="icon-container">
-                    <i class="fas fa-tools fa-2x"></i>
+                    <i class="fas fa-briefcase-medical fa-2x"></i>
                   </div>
-                  <div class="service-header">Renovation Loan</div>
+                  <div class="service-header">Medical Loan</div>
+                </div>
+                <div class="service-container">
+                  <div class="icon-container">
+                    <i class="fas fa-plane-departure fa-2x"></i>
+                  </div>
+                  <div class="service-header">Vacation Loan</div>
                 </div>
               </div>
             </div>
@@ -192,63 +249,113 @@
                   </div>
                   <div class="service-header">Business Loan</div>
                 </div>
-
+                <div class="service-container">
+                  <div class="icon-container">
+                    <i class="fas fa-graduation-cap fa-2x"></i>
+                  </div>
+                  <div class="service-header">Education Loan</div>
+                </div>
                 <div class="service-container">
                   <div class="icon-container">
                     <i class="fas fa-hand-holding-heart fa-2x"></i>
                   </div>
-                  <div class="service-header">Wedding/Marriage Loan</div>
+                  <div class="service-header">Wedding Loan</div>
                 </div>
                 <div class="service-container">
                   <div class="icon-container">
-                    <i class="fas fa-file-invoice-dollar fa-2x"></i>
+                    <i class="fas fa-tools fa-2x"></i>
                   </div>
-                  <div class="service-header">Debt Consolidation</div>
+                  <div class="service-header">Renovation Loan</div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="white-row" style="padding-bottom: 70px">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-5">
+              <div class="why-choose-us">
+                <div class="why-us-header">Singapore's #1 Moneylender</div>
+                <div class="why-us-text">
+                  <span style="font-weight: bold"
+                    >Legal, award-winning, and trustworthy</span
+                  >
+                  money lending company in Singapore.
+
+                  <br /><br />We provide customised financial solutions to those
+                  in need of quick and convenient cash.
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-7" style="padding: 0">
+              <div class="why-us-img">
+                <img
+                  src="images/awards.png"
+                  alt="awards"
+                  width="100%"
+                  height="auto"
+                />
               </div>
             </div>
           </div>
         </div>
       </div>
       <div class="white-row">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-3" style="padding: 0">
-              <div class="why-choose-us">
-                <div class="why-us-header">
-                  A genuine moneylender with integrity
-                </div>
-              </div>
+        <div class="white-row-header" style="margin-bottom: 40px">
+          Our Satisfied Customers
+        </div>
+        <div class="testimonials-container">
+          <div class="testimonial-group">
+            <img
+              src="images/elon-musk.png"
+              class="testimonial-person"
+              alt="handshake"
+            />
+            <div class="testimonial">
+              <img src="images/rating1.png" style="margin-bottom: 10px" />
+              <p class="testimonial-text">
+                "The staff are friendly and professional! They helped me
+                understand everything before signing"
+              </p>
             </div>
-            <div class="col-sm-9">
-              <div class="why-choose-us">
-                <div class="why-us-text">
-                  We adhere to the strict code of ethics and are transparent
-                  with our customers. There are
-                  <span style="font-weight: bold"
-                    >no hidden costs and charges</span
-                  >, which simply makes us the best. We will help you understand
-                  everything on the contract before you sign it, and rest
-                  assured you won’t find any surprises in the fine print.
-                  <br /><br />Our application forms are
-                  <span style="font-weight: bold"
-                    >simple and straightforward</span
-                  >. Compared to some banks, our application process is much
-                  more efficient. <br /><br />We need you to be sure of the
-                  terms and conditions, and you will be professionally advised
-                  on how much you are borrowing is something you can afford. We
-                  do not want to lend you money without a care of how you will
-                  pay it back, as that is against our principles.
-                </div>
-              </div>
+          </div>
+          <div class="testimonial-group">
+            <img
+              src="images/jeff-bezos.png"
+              class="testimonial-person"
+              alt="handshake"
+            />
+            <div class="testimonial">
+              <img src="images/rating1.png" style="margin-bottom: 10px" />
+              <p class="testimonial-text">
+                "SG Money Lender's low interest rate business loans helped me
+                scale and grow my company to what it is today!"
+              </p>
+            </div>
+          </div>
+          <div class="testimonial-group">
+            <img
+              src="images/cathie-woods.png"
+              class="testimonial-person"
+              alt="handshake"
+            />
+            <div class="testimonial">
+              <img src="images/rating1.png" style="margin-bottom: 10px" />
+              <p class="testimonial-text">
+                "Applying for a loan is so easy here! Very impressed by the
+                quick application process!"
+              </p>
             </div>
           </div>
         </div>
       </div>
       <div class="convinced-row">
         <div class="convinced-container">
-          <div class="convinced-header">
-            Convinced? Do a quick application now!
+          <div class="convinced-header">Do a quick application now!</div>
+          <div class="convinced-subheader">
+            We will be sure to advise on how much you can afford to borrow.
           </div>
           <a class="convinced-CTA" href="applyLoan.html">
             <div>Apply Loan</div>
@@ -260,7 +367,7 @@
         <div class="container">
           <div class="row">
             <div class="footer-content">
-              Copyright © F Money 2021.
+              Copyright © SG Money Lender 2021.
               <span><a id="footer-link" href="#">Privacy</a></span> |
               <span><a id="footer-link" href="#">Term of Use</a></span>
             </div>

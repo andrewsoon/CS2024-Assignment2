@@ -1,7 +1,7 @@
-body{
-    background: linear-gradient(90deg, rgba(40,27,54,1) 0%, #533870 100%);
-    margin:0;
-    overflow-x: hidden;
+body {
+  background: linear-gradient(90deg, rgba(40, 27, 54, 1) 0%, #533870 100%);
+  margin: 0;
+  overflow-x: hidden;
 }
 /* 
 body::before{
@@ -37,6 +37,10 @@ body::before{
   color: black;
   border-radius: 5px;
   padding: 10px;
+}
+
+button.btn.btn-primary {
+  border-color: transparent;
 }
 
 .btn {
