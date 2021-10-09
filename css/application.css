@@ -106,7 +106,7 @@ form {
 .gradient-background{
     content:"";
     position:absolute;
-    top:0px;
+    top:220px;
     bottom:0;
     left:0;
     width:5700px;
@@ -123,4 +123,22 @@ form {
 
 .qnatext {
   margin-top: 10px;
+}
+
+
+.calltoaction{
+    height:280px;
+    background: linear-gradient(90deg, rgba(40,27,54,1) 0%, #533870 100%);
+    padding-top:100px;
+    color: rgba(255, 255, 255, 0.774);
+}
+
+.calltoaction i{
+    color:#fff;
+    text-align: center;
+}
+
+#maincall{
+    font-size:20px;
+    padding-top:30px;
 }
