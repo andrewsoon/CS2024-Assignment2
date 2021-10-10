@@ -3,7 +3,7 @@ body {
   margin: 0;
   overflow-x: hidden;
 }
-/*
+/* 
 body::before{
     content:"";
     position:absolute;
@@ -14,8 +14,8 @@ body::before{
     background:linear-gradient(to top, #281b36, #ceb9e7 200%);
     transform: skew(-80deg);
     z-index: -1;
-}
-*/
+} */
+
 .main {
   min-height: auto;
 }
@@ -106,18 +106,20 @@ form {
   margin-bottom: 20px;
 }
 
-.gradient-background {
-  content: "";
-  position: absolute;
-  top: 0px;
-  bottom: 0;
-  left: 0;
-  width: 5700px;
-  background: linear-gradient(to right, #281b36, #ceb9e7 300%);
-  border-left: 1900px solid #fcfcfc;
-  border-bottom: 500px solid transparent;
-  z-index: -1;
-  overflow: hidden;
+
+.gradient-background{
+    content:"";
+    position:absolute;
+    /* top:220px; */
+    top:0;
+    bottom:0;
+    left:0;
+    width:5700px;
+    background:linear-gradient(to right, #281b36, #ceb9e7 300%);
+    border-left: 1900px solid #fcfcfc;   
+    border-bottom:500px solid transparent;
+    z-index: -1;
+    overflow: hidden;
 }
 
 .form-control {
@@ -127,3 +129,21 @@ form {
 .qnatext {
   margin-top: 10px;
 }
+
+
+/* .calltoaction{
+    height:280px;
+    background: linear-gradient(90deg, rgba(40,27,54,1) 0%, #533870 100%);
+    padding-top:100px;
+    color: rgba(255, 255, 255, 0.774);
+}
+
+.calltoaction i{
+    color:#fff;
+    text-align: center;
+}
+
+#maincall{
+    font-size:20px;
+    padding-top:30px;
+} */
